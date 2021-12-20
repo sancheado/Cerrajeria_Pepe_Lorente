@@ -24,17 +24,7 @@
         <!-- Nuestro CSS -->
         <link rel="stylesheet" href={{ asset('css/login.css') }}>
     </head>
-    <body class="antialiased">
-        <div class="container titul">
-            <div class="row">
-                <div class="col">
-                    <img src="{{ asset('img/logo.jpg') }}">
-                </div>
-                <div class="col">
-                    <h4>CERRAJERIA PEPE LORENTE</h4>
-                </div>
-            </div>
-        </div>
+    <body class="antialiased">        
         <section class="container Sprincipal">
             <div class="row">
                 <div class="col">
@@ -60,9 +50,31 @@
                     </div>
                 </div>
                 <div class="col pantallaDinamica">
-                    <p>Texto de prueba</p>
+                        <div class="container titul">
+                            <div class="row">
+                                <img src="{{ asset('img/logo.jpg') }}">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-7 d-flex align-items-center">
+                        <div class="card-body p-4 p-lg-5 text-black">
+                            <form>
+                                <div class="form-outline mb-4">
+                                    <label class="form-label" for="form2Example17">Email address</label>
+                                    <input type="email" id="form2Example17" class="form-control form-control-lg" />
+                                </div>
+                                <div class="form-outline mb-4">
+                                    <label class="form-label" for="form2Example27">Password</label>
+                                    <input type="password" id="form2Example27" class="form-control form-control-lg" />
+                                </div>
+                                <div class="pt-1 mb-4 divButton">
+                                    <button class="btn btn-dark btn-lg btn-block" type="button">Login</button>
+                                </div>
+                            </form>
+                            </div>
+                            </div>
+                        </div>
                 </div>
-            </div>
+
         </section>
 
         <!-- BOOSTRAP JS -->
