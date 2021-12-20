@@ -3,7 +3,7 @@ body{background-color: #82878c;}
 
 
 /* SECCION PRINCIPAL */
-.Sprincipal{max-width: 1024px;width: 100%;border: 1px solid #000;border-radius: 3px;margin:3.5% auto;}
+.Sprincipal{max-width: 1024px;width: 100%;border: 1px solid #000;border-radius: 3px;margin:3.5% auto;background-color: #fff;}
 .Sprincipal .row .col{min-height: 500px;}
 
 .Sprincipal .row .col:first-child{max-width: 300px;}
@@ -18,7 +18,7 @@ body{background-color: #82878c;}
 
 .Sprincipal .row .col .row .col-sm-12:hover{opacity:0.5}
 
-.Sprincipal .row .col.pantallaDinamica{background-color: #fff;color:#000;}
+.Sprincipal .row .col.pantallaDinamica{color:#000;}
 
 /* Titulo */
 .titul{margin:35px auto;padding:10px;max-width: 1024px;width: 100%;border-radius: 3px;}
@@ -26,6 +26,10 @@ body{background-color: #82878c;}
 
 /* Pantalla dinamica */
 .pantallaDinamica .container .row h5{margin: 25px auto;text-align: center;font-weight: 500;line-height: 32px;}
-.form-outline{width: 30vw;padding: 2.5px;text-align: center;}
+.form-outline{width: 41vw;padding: 2.5px;text-align: center;color:#292c8e;margin-left:10%;}
+
+input[type=email],input[type=password]{border-color: #292c8e;}
 
 .divButton{display: flex;justify-content: center;}
+.divButton button{background-color: #292c8e!important;color:#fff;margin-left:20%;}
+.divButton button:hover{background-color: #fff!important;color:#292c8e;border:1px solid #292c8e;}

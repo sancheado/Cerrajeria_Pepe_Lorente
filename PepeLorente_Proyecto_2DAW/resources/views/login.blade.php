@@ -27,7 +27,7 @@
     <body class="antialiased">        
         <section class="container Sprincipal">
             <div class="row">
-                <div class="col">
+                <div class="col" style="display:none;>
                     <div class="row">
                         <div class="col-sm-12">
                             1
@@ -67,7 +67,7 @@
                                     <input type="password" id="form2Example27" class="form-control form-control-lg" />
                                 </div>
                                 <div class="pt-1 mb-4 divButton">
-                                    <button class="btn btn-dark btn-lg btn-block" type="button">Login</button>
+                                    <button class="btn btn-dark btn-lg btn-block" type="button">Identificarse</button>
                                 </div>
                             </form>
                             </div>
