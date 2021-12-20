@@ -25,9 +25,9 @@
         <link rel="stylesheet" href={{ asset('css/login.css') }}>
     </head>
     <body class="antialiased">        
-        <section class="container Sprincipal">
+        <section class="container SLogin">
             <div class="row">
-                <div class="col" style="display:none;>
+                <!-- <div class="col" style="display:none;>
                     <div class="row">
                         <div class="col-sm-12">
                             1
@@ -48,14 +48,14 @@
                             6
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="col pantallaDinamica">
-                        <div class="container titul">
+                        <div class="container">
                             <div class="row">
                                 <img src="{{ asset('img/logo.jpg') }}">
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-7 d-flex align-items-center">
+                        <div class="col d-flex align-items-center ml-3">
                         <div class="card-body p-4 p-lg-5 text-black">
                             <form>
                                 <div class="form-outline mb-4">
