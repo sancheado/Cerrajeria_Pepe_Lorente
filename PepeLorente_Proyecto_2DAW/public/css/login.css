@@ -1,0 +1,22 @@
+*,body{margin: 0;padding: 0;box-sizing: border-box;}
+
+/* Titulo */
+.titul{margin:35px auto;padding:10px;max-width: 1024px;width: 100%;border-radius: 3px;}
+.titul .row .col img{width: 400px;height: 100px;margin: 20px auto;margin-left: 25px!important;}
+.titul .row .col h4{text-align: center;line-height: 150px;font-weight: 700;}
+
+/* SECCION PRINCIPAL */
+.Sprincipal{max-width: 1024px;width: 100%;border: 1px solid #000;border-radius: 3px;margin:3.5% auto;}
+.Sprincipal .row .col{min-height: 500px;}
+
+.Sprincipal .row .col:first-child{max-width: 300px;}
+.Sprincipal .row .col .row{display: flex;align-items: center;justify-content: center;}
+.Sprincipal .row .col .row .col-sm-12{width: 100%;height: 100px;font-weight: 500;text-align: center;}
+.Sprincipal .row .col .row .col-sm-12:first-child{background-color: green;color:#fff;}
+.Sprincipal .row .col .row .col-sm-12:nth-child(2){background-color: blue;color:#fff;}
+.Sprincipal .row .col .row .col-sm-12:nth-child(3){background-color: pink;color:#fff;}
+.Sprincipal .row .col .row .col-sm-12:nth-child(4){background-color: yellow;color:#fff;}
+.Sprincipal .row .col .row .col-sm-12:nth-child(5){background-color: orange;color:#fff;}
+
+
+.Sprincipal .row .col.pantallaDinamica{background-color: aquamarine;color:yellow;}
