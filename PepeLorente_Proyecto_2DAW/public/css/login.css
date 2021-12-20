@@ -22,10 +22,10 @@ body{background-color: #82878c;}
 
 /* Titulo */
 .titul{margin:35px auto;padding:10px;max-width: 1024px;width: 100%;border-radius: 3px;}
-.titul .row img{width: 400px;height: 120px;display:block;margin:auto;}
+.titul .row img{width: 400px;height: 100px;display:block;margin:auto;}
 
 /* Pantalla dinamica */
 .pantallaDinamica .container .row h5{margin: 25px auto;text-align: center;font-weight: 500;line-height: 32px;}
-.form-outline{width: 30vw;padding: 2.5px;}
+.form-outline{width: 30vw;padding: 2.5px;text-align: center;}
 
 .divButton{display: flex;justify-content: center;}

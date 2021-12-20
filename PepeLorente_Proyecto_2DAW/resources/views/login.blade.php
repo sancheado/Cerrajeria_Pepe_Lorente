@@ -59,11 +59,11 @@
                         <div class="card-body p-4 p-lg-5 text-black">
                             <form>
                                 <div class="form-outline mb-4">
-                                    <label class="form-label" for="form2Example17">Email address</label>
+                                    <label class="form-label" for="form2Example17"><h5>Dirección Email</h5> </label>
                                     <input type="email" id="form2Example17" class="form-control form-control-lg" />
                                 </div>
                                 <div class="form-outline mb-4">
-                                    <label class="form-label" for="form2Example27">Password</label>
+                                    <label class="form-label" for="form2Example27"><h5>Contraseña </h5></label>
                                     <input type="password" id="form2Example27" class="form-control form-control-lg" />
                                 </div>
                                 <div class="pt-1 mb-4 divButton">
